@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  /* body {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 100vh;
+    background: url(imaged/login5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-right: 200px;
+  } */
+  .maindiv {
+    width: 420px;
+    background: transparent;
+    color: black;
+    border-radius: 28px;
+    padding: 30px 40px;
+    border: 2px solid black;
+  }
+  .maindiv h1 {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+  }
+  .maindiv .input-box {
+    width: 100%;
+    height: 45px;
+    margin: 30px 5px;
+  }
+  .input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(5, 5, 5, 0.2);
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+  }
+  .input-box input::placeholder {
+    color: black;
+  }
+  .maindiv .remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0px 15px;
+  }
+  .remember label input {
+    accent-color: black;
+    margin: right 3px;
+    cursor: pointer;
+  }
+  .remember:hover {
+    text-decoration: underline;
+  }
+  .maindiv .btn {
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, -1);
+    cursor: pointer;
+    color: black;
+    font-weight: 600px;
+  }
+  .wrapper .register-link {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0px 15px;
+  }
+  .register-link p a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .register-link p a:hover {
+    text-decoration: underline;
+  }
+  .remember-forget .a {
+    text-decoration: none;
+    color: white;
+  }
+  
